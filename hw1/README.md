@@ -18,7 +18,7 @@ text-decoration: none;
 
 6. Разделить экран на 2 части, сделать так чтобы файл стилей располагался справа, а все html-файлы были слева. 
 
-![img1]([assets/mages/123.png](https://github.com/VeraNik1/WEB/blob/main/hw1/assets/images/123.png))
+![img1](https://github.com/VeraNik1/WEB/blob/main/hw1/assets/images/123.png)
 
 7. Для всех ссылок меню задать класс (придумать логичное название класса) 
 * color: cornflowerblue;
