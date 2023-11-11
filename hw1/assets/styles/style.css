@@ -1,25 +1,5 @@
- p {
+ * {
     text-align: center;
-    color: rgb(61, 5, 61);
-    font-size: 20px;
-}
-
-h1 {
-    text-align: center;
-    color: red;
-    font-size: 24px;
-}
-
-h2 {
-    text-align: center;
-    color: brown;
-    font-size: 24px;
-}
-
-.menu {
-    text-align: center;
-    margin: 0 10px;
-    font-size: 30px;
 }
 
 .menu-separator {
@@ -41,14 +21,47 @@ h2 {
     height: auto; 
 }
 
-.product h2 {
-    font-size: 24px; 
-    margin: 2px 0; 
-    color: rgb(96, 27, 84);
-}
-
 .product p, li {
     font-size: 18px; 
     margin: 24px 0; 
     color: rgb(202, 92, 184);
+}
+
+/*домашняя №2 см. ниже*/
+/*task 7*/
+.menu_link a{
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.menu_link {
+    text-align: center;
+    margin: 0 10px;
+}
+/*task 9*/
+.headings1{
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+/*task 10, 11*/
+.p_style{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+/*task 12*/
+.headings2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+    color: coral;
 }
