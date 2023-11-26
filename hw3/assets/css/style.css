@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url("../font/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url("../font/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url("../font/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url("../font/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFFFFF;
+
+}
+
+ul {
+    padding: 0;
+}
+
+.header {
+    width: 1170px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 337px;
+}
+
+.header_logo {
+    height: 40px;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: center;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+    gap: 37px;
+    align-items: center;
+
+}
+
+.header_link {
+    color: #000;
+
+}
+
+a.header_link:hover {
+    color: #F25822;
+}
+
+.header_link_orange {
+    color: #F25822;
+}
+
+a.header_link_orange:hover {
+    color: #000;
+}
+
+.menu_vector {
+    margin-left: 4px;
+}
+
+.top_content {
+    margin-top: 84px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+}
+
+
+
+.top_info_title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 59px;
+    margin-bottom: 17px;
+}
+
+.top_info_text {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+    width: 466px;
+}
+
+.top_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 302px;
+}
+
+.button {
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    padding: 15px 36px 16px 35px;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 0;
+}
+
+.text {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_logos {
+    margin-top: 177px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
