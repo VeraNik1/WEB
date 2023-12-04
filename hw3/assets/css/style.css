@@ -52,7 +52,7 @@ ul {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    gap: 337px;
+    justify-content: space-between;
 }
 
 .header_logo {
