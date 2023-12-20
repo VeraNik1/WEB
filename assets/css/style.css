@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+html {
+font-family: 'Lato', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFFFFF;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header_top{
+    background-color: #222;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_content{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left{
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.header_right{
+    display: flex;
+    min-width: 159px;
+    justify-content: space-between;
+    height: 29px;
+    align-items: center;
+}
+
+.first_section{
+    background-color: #F1E4E6;
+    height: 764px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.first_section_container{
+    width: 1600px;
+    display: flex;
+    justify-content: left;
+    gap: 63px;
+
+}
+
+.first_section_right{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.title_section_one{
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.subtitle_section_one{
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.colortext_section_one{
+    color: #F16D7F;
+}
+
+.second_section{
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.second_section_container{
+    margin-top: 65px;
+    margin-bottom: 96px;
+    width: 1140px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.box_top{
+    display: block;
+    position: relative;
+    justify-content: center;
+    }
+
+.box_top:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(33, 22, 22, 0.7);
+    transition: all .3s ease;
+  }
+
+.box_top:hover::before{
+    background: none;
+  }
+.box_bottom{
+    display: block;
+    grid-column: span 3;
+    background: rgba(33, 22, 22, 0.7);
+    position: relative;
+}
+
+.box_bottom:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(33, 22, 22, 0.7);
+    transition: all .3s ease;
+  }
+
+.box_bottom:hover::before{
+    background: none;
+  }
+
+.text_second_section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.first_line{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.second_line{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.third_section{
+    background-color: #FFF;
+    display: grid;
+    justify-items: center;
+}
+
+
+.third_section_title{
+    text-align: center;
+
+}
+
+.third_section_title_first_line{
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 6px;
+}
+
+.third_section_title_second_line{
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.third_section_container{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+}
+
+.item_sale{
+    height: 581px;
+    width: 360px;
+    background-color: #F8F8F8;
+}
+
+.item_info{
+    display: grid;
+    padding: 24px 16px;
+    text-align: left;
+    gap: 16px;
+    
+}
+
+.item_title{
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item_description{
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.item_price{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link_text{
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button_more{
+    width: 212px;
+    height: 48px;
+    border-color: #FF6A6A;
+    margin-bottom: 60px;
+    background-color: #FFF;
+}
+
+@media screen and (max-width: 1439px){
+
+    .header_top{
+        min-height: 74px;
+    }
+    .header_content{
+        width: 100%;
+        margin-left: 32px;
+        margin-right: 41px;
+    }
+
+    .first_section{
+        width: 100%;
+        min-height: 368px;
+        height: auto;
+
+    }
+
+    .first_section_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 39px;
+        justify-content: center;
+
+        }
+
+        .first_section_right{
+            width: 100%;
+        }
+    
+        .first-section-img{
+            width: 100%;
+        }
+
+    .title_section_one{
+        font-size: 44px;
+    }
+    
+    .subtitle_section_one{
+        font-size: 24px;
+    }
+   
+
+    
+    .second_section{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .second_section_container{
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-bottom: 110px;
+        height: 100%;
+        gap: 20px;
+    }
+    .box_top{
+        max-width: 100%;
+    } 
+
+    .box_top:before {
+        max-width: 100%;
+    }
+    
+    .images_second_section{
+        display: block;
+        max-width: 100%;
+    }
+
+    .third_section_container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 16px;
+        justify-content: center;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+
+}
+
+@media screen and (max-width:767px){
+
+}
